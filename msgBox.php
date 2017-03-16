@@ -2,7 +2,11 @@
 <div class="row center-block">
 	<div class="col-lg-12">
 		<?php 
-    require_once('allvars.php');//请将数据库登录数据放在这里。
+    //登录数据库的信息：
+	define('DB_HOST', '***');
+	define('DB_USER', '***');
+	define('DB_PW', '***');
+	define('DB_NAME', '***');
 //初始化提交留言要用的变量：
     $name='';
     $email='';
